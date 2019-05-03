@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBarcode.Core", "CustomBarcode.Core\CustomBarcode.Core.csproj", "{B77A52E9-918C-4DA1-94CF-EEE1E71E3E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBarcode.Tests", "CustomBarcode.Tests\CustomBarcode.Tests.csproj", "{B4CC30CF-6876-4141-A961-977F6BC56EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBarcode.Generator", "CustomBarcode.Generator\CustomBarcode.Generator.csproj", "{F675EC8E-1251-4488-8083-7325C4C9381D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBarcode.Reader", "CustomBarcode.Reader\CustomBarcode.Reader.csproj", "{B0E71C3C-6BB5-46BD-8B99-D428A971071B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77A52E9-918C-4DA1-94CF-EEE1E71E3E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77A52E9-918C-4DA1-94CF-EEE1E71E3E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77A52E9-918C-4DA1-94CF-EEE1E71E3E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77A52E9-918C-4DA1-94CF-EEE1E71E3E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CC30CF-6876-4141-A961-977F6BC56EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CC30CF-6876-4141-A961-977F6BC56EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CC30CF-6876-4141-A961-977F6BC56EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CC30CF-6876-4141-A961-977F6BC56EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F675EC8E-1251-4488-8083-7325C4C9381D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F675EC8E-1251-4488-8083-7325C4C9381D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F675EC8E-1251-4488-8083-7325C4C9381D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F675EC8E-1251-4488-8083-7325C4C9381D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E71C3C-6BB5-46BD-8B99-D428A971071B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E71C3C-6BB5-46BD-8B99-D428A971071B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E71C3C-6BB5-46BD-8B99-D428A971071B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E71C3C-6BB5-46BD-8B99-D428A971071B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7C79A45-28A6-4D30-B3C8-26BDDFD29AF7}
+	EndGlobalSection
+EndGlobal
